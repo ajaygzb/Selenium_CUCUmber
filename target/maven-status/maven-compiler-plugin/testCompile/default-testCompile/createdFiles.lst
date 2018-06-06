@@ -1,0 +1,8 @@
+com\pack\Utils\CommonUtils.class
+com\db\connect\TestDatabase.class
+com\pack\base\Test.class
+com\pack\base\TestRunner.class
+stepDefinations\LoginStepDefination.class
+com\pack\pageobjects\LoginPage.class
+com\pack\Utils\CommonUtils$1.class
+stepDefinations\Hooks.class

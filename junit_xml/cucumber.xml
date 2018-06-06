@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="153.740351">
+<testcase classname="Login BMS App" name="To Verify Valid Login In BMS" time="37.28615">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enters Username...................................................passed
+When User Enters Password...................................................passed
+And User Clicks on Sign In Button...........................................passed
+Then User Lands On Provider Home Screen.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Invalid Login BMS App" name="To Verify InValid Login In BMS" time="20.544544">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enters Username "invalidusername".................................passed
+When User Enters Password "password"........................................passed
+And User Clicks on Sign In Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Multiple Login BMS App" name="To Verify Multiple Login In BMS" time="19.983906">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enters Username "username"........................................passed
+When User Enters Password "password"........................................passed
+And User Clicks on Sign In Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Multiple Login BMS App" name="To Verify Multiple Login In BMS 2" time="21.082937">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enters Username "invalidusername".................................passed
+When User Enters Password "password"........................................passed
+And User Clicks on Sign In Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="No Ip Active Login BMS App" name="To Verify No Ip Active Cannot Login In BMS" time="20.269061">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User enters Credentials to LogIn.......................................passed
+And User Clicks on Sign In Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customer Login BMS App" name="To Verify Customer Login In BMS" time="34.573753">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User enters Login Credentials..........................................passed
+And User Clicks on Sign In Button...........................................passed
+Then User Lands On Provider Home Screen.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

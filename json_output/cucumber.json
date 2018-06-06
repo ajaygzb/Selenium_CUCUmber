@@ -1,0 +1,665 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12044226727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Verify Valid Login In BMS",
+        "description": "",
+        "id": "login-bms-app;to-verify-valid-login-in-bms",
+        "after": [
+          {
+            "result": {
+              "duration": 705415529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86186651,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6006778164,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters Username",
+            "match": {
+              "location": "LoginStepDefination.user_Enters_Username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104977120,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Password",
+            "match": {
+              "location": "LoginStepDefination.user_Enters_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66744512,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18271820896,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Lands On Provider Home Screen",
+            "match": {
+              "location": "LoginStepDefination.user_Lands_On_Provider_Home_Screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login BMS App",
+    "description": "",
+    "id": "login-bms-app",
+    "keyword": "Feature",
+    "uri": "LoginBMS.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Parameterizing without Example Keyword"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 10752813447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Verify InValid Login In BMS",
+        "description": "",
+        "id": "invalid-login-bms-app;to-verify-invalid-login-in-bms",
+        "after": [
+          {
+            "result": {
+              "duration": 660893418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27242115,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4919744744,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters Username \"invalidusername\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidusername",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4114101950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69747953,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Invalid Login BMS App",
+    "description": "",
+    "id": "invalid-login-bms-app",
+    "keyword": "Feature",
+    "uri": "Login_Parameter1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login1"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10330960897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To Verify Multiple Login In BMS",
+        "description": "",
+        "id": "multiple-login-bms-app;to-verify-multiple-login-in-bms;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 639073980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26840976,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4810643180,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters Username \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4111877085,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64509801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11398444599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Verify Multiple Login In BMS",
+        "description": "",
+        "id": "multiple-login-bms-app;to-verify-multiple-login-in-bms;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 664318055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25037306,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4830111575,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters Username \"invalidusername\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidusername",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4105946420,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.user_Enters_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59079100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login2"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple Login BMS App",
+    "description": "",
+    "id": "multiple-login-bms-app",
+    "keyword": "Feature",
+    "uri": "Login_Parameter2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login2"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Parameterizing with Data Tables in Cucumber"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 11048888698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Verify No Ip Active Cannot Login In BMS",
+        "description": "",
+        "id": "no-ip-active-login-bms-app;to-verify-no-ip-active-cannot-login-in-bms",
+        "after": [
+          {
+            "result": {
+              "duration": 687385037,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25256109,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8447226449,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Credentials to LogIn",
+            "match": {
+              "location": "LoginStepDefination.user_enters_Credentials_to_LogIn(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "usernameNoIpActive",
+                  "password"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60305129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "No Ip Active Login BMS App",
+    "description": "",
+    "id": "no-ip-active-login-bms-app",
+    "keyword": "Feature",
+    "uri": "Login_Parameter3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login3"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Parameterizing with Data Tables with Maps (Header) in Cucumber"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 11745452536,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Verify Customer Login In BMS",
+        "description": "",
+        "id": "customer-login-bms-app;to-verify-customer-login-in-bms",
+        "after": [
+          {
+            "result": {
+              "duration": 651658092,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25194115,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4467617829,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Login Credentials",
+            "match": {
+              "location": "LoginStepDefination.user_enters_Login_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "userCustomer",
+                  "password"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74744693,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17609085519,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Lands On Provider Home Screen",
+            "match": {
+              "location": "LoginStepDefination.user_Lands_On_Provider_Home_Screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Login BMS App",
+    "description": "",
+    "id": "customer-login-bms-app",
+    "keyword": "Feature",
+    "uri": "Login_Parameter4.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login4"
+      }
+    ]
+  }
+]
